@@ -1,0 +1,28 @@
+const DEFAULT_CATEGORIES = [
+  { name: 'Food', type: 'expense' },
+  { name: 'Groceries', type: 'expense' },
+  { name: 'Dining', type: 'expense' },
+  { name: 'Shopping', type: 'expense' },
+  { name: 'Transport', type: 'expense' },
+  { name: 'Fuel', type: 'expense' },
+  { name: 'Bills & utilities', type: 'expense' },
+  { name: 'Housing', type: 'expense' },
+  { name: 'Rent', type: 'expense' },
+  { name: 'Education', type: 'expense' },
+  { name: 'Healthcare', type: 'expense' },
+  { name: 'Entertainment', type: 'expense' },
+  { name: 'Travel', type: 'expense' },
+  { name: 'Subscriptions', type: 'expense' },
+  { name: 'Personal care', type: 'expense' },
+  { name: 'Gifts & donations', type: 'expense' },
+  { name: 'Salary', type: 'income' },
+  { name: 'Freelance', type: 'income' },
+  { name: 'Business', type: 'income' },
+  { name: 'Investments', type: 'income' },
+  { name: 'Rental income', type: 'income' },
+  { name: 'Gifts', type: 'income' },
+  { name: 'Other income', type: 'income' },
+  { name: 'Other expenses', type: 'expense' },
+];
+
+module.exports = DEFAULT_CATEGORIES;
